@@ -1,7 +1,3 @@
-
-
-I'll help you add this content to your README.md file. Here's the markdown formatted and ready to use:
-
 ```markdown
 # 📘 FAQ Management System
 
@@ -89,8 +85,3 @@ PORT=5000
 
 **Author:** Manjunath Reddy | B.Tech Student (AI)
 ```
-
-**To add this to your file:**
-1. Open `/c:/Users/manju/OneDrive/Documents/FAQ/frontend/README.md`
-2. Paste the markdown above
-3. Save the file
