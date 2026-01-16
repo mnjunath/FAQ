@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://faq-88y8.onrender.com"
+  baseURL: "https://faq-88y8.onrender.com/api"
 });
 
 api.interceptors.request.use((config) => {
