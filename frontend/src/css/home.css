@@ -1,0 +1,47 @@
+.home {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  background-color: #f5f7fb;
+}
+
+.home-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.home-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f2a44;
+  margin-bottom: 20px;
+}
+
+.home-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.home-empty {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+@media (max-width: 600px) {
+  .home-title {
+    font-size: 20px;
+  }
+
+  .home-filters {
+    flex-direction: column;
+  }
+}
